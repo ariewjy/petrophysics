@@ -89,7 +89,7 @@ with data_setting:
   res_trackname = 'Resistivity'
   res_left = st.sidebar.number_input('Resistivity Left Scale', min_value=0.001, max_value=1000000.000, value=0.02)
   res_right = st.sidebar.number_input('Resistivity Right Scale', min_value=0.001, max_value=1000000.000, value = 2000)
-  res_cutoff = st.sidebar.number_input('Resistivity Cutoff', min_value=0.1, max_value=1000)
+  res_cutoff = st.sidebar.number_input('Resistivity Cutoff', min_value=0.1, max_value=1000, value=100)
   res_shading = 'lightcoral'
 
   st.sidebar.title('Density Logs')
